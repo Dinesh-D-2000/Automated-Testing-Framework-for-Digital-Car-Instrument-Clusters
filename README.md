@@ -1,4 +1,4 @@
-# Instrument-cluster-automation-testing
+# Automated Testing Framework for Digital Car Instrument Clusters
 
 ## Objective
 
