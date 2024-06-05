@@ -1,4 +1,4 @@
-# Automated Testing Framework for Digital Car Instrument Clusters
+# Python's Mastery in Automation testing on Digital Instrument clusters
 
 ## Objective
 
@@ -12,7 +12,7 @@ The objective of this project is to perform automation testing on a digital inst
 - JavaScript
 - SQL
 - Selenium WebDriver
-- pytest framework
+- Pytest Framework
 
 ## Description
 
