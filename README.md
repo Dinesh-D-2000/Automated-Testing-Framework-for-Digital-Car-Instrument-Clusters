@@ -16,7 +16,7 @@ The objective of this project is to perform automation testing on a digital inst
 
 ## Description
 
-The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below.
+The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below.<br /><br />
 ![image](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259)
 
 I have developed an API that will validate the presence of an icon in the given full screenshot of the HMI. The validation API will pass the test case only when:
@@ -27,7 +27,7 @@ I have developed an API that will validate the presence of an icon in the given 
 
 1. Click on the Tire pressure button in the HMI and wait for 7 seconds. Verify the Tire pressure icon is displayed on the HMI.
 
-For this test case, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
+For this test case, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.<br /><br />
 
 [![Test Case Video](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8)](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8)
 
@@ -52,12 +52,12 @@ For this test case, the script is written in `test_basic_hmi.py`. The script exe
 
 ### Screenshots
 
-Screenshot captured:<br />
+Screenshot captured:<br /> <br />
 ![screenshot](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc4187f7-cd67-4c43-a6d8-e89d3e7c13a8)
 
-2. Detected icon: <br />
+2. Detected icon: <br /> <br />
 ![detected_icon](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/9c7401a0-2ed5-4778-8143-0df7e9a2d51e)
 
-3. Icon present in Database: <br />
+3. Icon present in Database: <br /> <br />
 ![database_icon_icn_tpms_icon](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9)
 
