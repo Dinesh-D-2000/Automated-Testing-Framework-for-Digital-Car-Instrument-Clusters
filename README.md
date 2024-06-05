@@ -32,15 +32,14 @@ I have developed an API that will validate the presence of an icon in the given 
 
 For this test case, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
 
-<p align="center">
-  <a href="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8">
-    <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8" alt="Test Case Video">
-  </a>
-</p>
+
+https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8
+
+
 
 ## Logs and Screenshots of the Test Execution
 
-### Debug Log File
+<b>Debug Log File</b>
 
 [debug.log](https://github.com/user-attachments/files/15589799/debug.log)
 24-06-05 07:28:03 PM: INFO: URL SUCCESSFULLY LOADED
@@ -58,19 +57,19 @@ For this test case, the script is written in `test_basic_hmi.py`. The script exe
 
 ### Screenshots
 
-Screenshot captured:
+<b>Screenshot captured:</b>
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc4187f7-cd67-4c43-a6d8-e89d3e7c13a8" alt="Screenshot">
 </p>
 
-Detected icon:
+<b>Detected icon:</b>
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/9c7401a0-2ed5-4778-8143-0df7e9a2d51e" alt="Detected Icon">
 </p>
 
-Icon present in Database:
+<b>Icon present in Database:</b>
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
