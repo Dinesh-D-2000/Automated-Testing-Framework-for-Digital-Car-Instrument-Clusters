@@ -28,7 +28,7 @@ I have developed an API that will validate the presence of an icon in the given 
 
 ## Test Case 1
 
-1. Click on the Tire pressure button in the HMI and wait for 7 seconds. Verify the Tire pressure icon is displayed on the HMI.
+<b><i>1. Click on the Tire pressure button in the HMI and wait for 7 seconds. Verify the Tire pressure icon is displayed on the HMI.</i></b>
 
 For this test case, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
 
