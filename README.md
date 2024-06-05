@@ -17,7 +17,7 @@ The objective of this project is to perform automation testing on a digital inst
 ## Description
 
 The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below.<br /><br />
-<p align = center />![image](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259)
+<p align = center>![image](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259)</p>
 
 I have developed an API that will validate the presence of an icon in the given full screenshot of the HMI. The validation API will pass the test case only when:
 - The specified icon to be validated comes in the ROI specified by the user.
