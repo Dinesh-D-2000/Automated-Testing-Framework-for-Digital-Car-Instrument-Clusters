@@ -23,7 +23,7 @@ The digital instrument cluster display is developed using the front-end tools HT
 </p>
 
 I have developed an API that will validate the presence of an icon in the given full screenshot of the HMI. The validation API will pass the test case only when:
-- The specified icon to be validated comes in the ROI specified by the user.
+- The specified icon to be validated comes in the ROI specified by the user. (initially full screen ROI is given to the API. After test execution it will return the exact ROI where the image is found)
 - The matching percentage is above a certain threshold value.
 
 ## Test Case 1
