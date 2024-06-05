@@ -16,7 +16,7 @@ The objective of this project is to perform automation testing on a digital inst
 
 ## Description
 
-The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below.
+The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below. This website is developed for testing purpose.In Real time cluster HMI will be live streamed to the browser from the Electronic control unit. Testing will be done on that.
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259" alt="Instrument Cluster Display">
@@ -75,3 +75,8 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p>
+
+## Conclusion
+This project demonstrates the effectiveness of automated testing in validating the functionality of a digital instrument cluster in a car. So far I have developed an API that will perfrom the icon validation. If used on a Real time environment where the live cluster HMI is streamed over the browser, these validations through automation ensures that the Instrument cluster works as per the client specifications.
+
+Looking ahead, future plans include the development of an API that will perform text validation within the instrument cluster. This enhancement will further improve the testing process by ensuring that all textual information displayed on the instrument cluster is accurate and correctly formatted, thus maintaining a high level of quality and user experience.
