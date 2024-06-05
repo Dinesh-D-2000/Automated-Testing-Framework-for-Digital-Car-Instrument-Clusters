@@ -41,7 +41,8 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 
 <b>Debug Log File</b>
 
-[debug.log](https://github.com/user-attachments/files/15589799/debug.log)
+[debug.log](https://github.com/user-attachments/files/15589799/debug.log) <br />
+<pre>
 24-06-05 07:28:03 PM: INFO: URL SUCCESSFULLY LOADED
 24-06-05 07:28:03 PM: INFO: ICON DB sucessfully loaded
 24-06-05 07:28:03 PM: INFO: Button with ID:tpms is pressed
@@ -53,7 +54,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-05 07:28:11 PM: INFO: bottom right coordinates: (1251, 623)
 24-06-05 07:28:11 PM: INFO: ICON saved as detected_icon_icn_tpms_icon.png
 24-06-05 07:28:11 PM: INFO: confidence_detected: 0.7948028445243835
-24-06-05 07:28:12 PM: INFO: Button with ID:home is pressed
+24-06-05 07:28:12 PM: INFO: Button with ID:home is pressed</pre>
 
 ### Screenshots
 
