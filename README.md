@@ -52,12 +52,12 @@ For this test case, the script is written in `test_basic_hmi.py`. The script exe
 
 ### Screenshots
 
-1. Screenshot captured:
+Screenshot captured:<br />
 ![screenshot](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc4187f7-cd67-4c43-a6d8-e89d3e7c13a8)
 
-2. Detected icon:
+2. Detected icon: <br />
 ![detected_icon](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/9c7401a0-2ed5-4778-8143-0df7e9a2d51e)
 
-3. Icon present in Database:
+3. Icon present in Database: <br />
 ![database_icon_icn_tpms_icon](https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9)
 
