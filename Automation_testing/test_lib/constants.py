@@ -4,6 +4,10 @@ class TelltaleStatus(Enum):
     ON="ON"
     OFF="OFF"
 
+class WarningStatus(Enum):
+    ON="ON"
+    OFF="OFF"
+
 class Buttons(Enum):
     Home = "home"
     DRIVER_MODE = "drive_mode"
