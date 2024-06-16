@@ -17,6 +17,7 @@ class Test(ValidationApi):
         self.w456 = "W456"
         yield
         self.press_btn(Buttons.Home.value)
+        self.driver.close()
 
     def test_tpms_on(self, before):
         """
