@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hmi_styles.css">
+        <link rel="icon" href="home.jpeg" type="image/png">
+        <title>CLUSTER HMI DISPLAY</title>
+    </head>
+    <body>
+        <div class="cluster">
+            <div class="btn-container">
+                <button id="home" class="btn">Home</button>
+                <button id="drive_mode"  class="btn">Drive Mode</button>
+                <button id="reverse_mode"  class="btn">Reverse Mode</button>
+                <button id="tpms"  class="btn">Tire Pressure</button>
+                <button id="oil_temp"  class="btn">Oil Temp</button>
+                <button id="fuel_economy"  class="btn">Fuel Economy</button>
+                <button id="messages"  class="btn">Messages</button>
+            </div>
+            <div class="video-container">
+                <img src="home.jpeg" id="home_img">
+                <video id="hmi_video" width="600" >
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <script>
+            function home() {
+                var homeImg = document.getElementById("home_img");
+                var video = document.getElementById("hmi_video");
+                homeImg.style.display = "block";
+                video.style.display = "none";
+            }
+
+            function playVideo(source){
+                return function() {
+                var homeImg = document.getElementById("home_img");
+                var video = document.getElementById("hmi_video");
+                video.setAttribute("src",source);   
+                homeImg.style.display = "none";
+                video.style.display = "block";
+                video.currentTime = 0;
+                video.play();
+                }
+
+            }
+
+            document.getElementById("home").addEventListener("click", home);
+            document.getElementById("tpms").addEventListener("click", playVideo("tpms.mp4"));
+            document.getElementById("drive_mode").addEventListener("click", playVideo("drive mode.mp4"));
+            document.getElementById("reverse_mode").addEventListener("click", playVideo("reverse mode.mp4"));
+            document.getElementById("oil_temp").addEventListener("click", playVideo("oil temp.mp4"));
+            document.getElementById("fuel_economy").addEventListener("click", playVideo("fuel economy.mp4"));
+            document.getElementById("messages").addEventListener("click", playVideo("messages.mp4"));
+
+        </script>
+    </body>
+</html>

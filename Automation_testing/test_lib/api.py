@@ -140,7 +140,7 @@ class ValidationApi:
                     top_left = data[i]["top_left_coordinate"]
                     bottom_right = data[i]["bottom_right_coordinate"]
                     warning_text = data[i]["warning_text"]
-        pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+        pytesseract.pytesseract.tesseract_cmd = r"D:\Automation_testing\drivers\tesseract\tesseract.exe"
         full_screenshot = Image.open(frame_data)
         roi = full_screenshot.crop((top_left[0], top_left[1], bottom_right[0], bottom_right[1]))
         roi.save(f"D:\\Automation_testing\\Logs\\{self.logs}\\given_region.png")
@@ -148,18 +148,9 @@ class ValidationApi:
         extracted_text = pytesseract.image_to_string(roi)
         if warning_text in extracted_text:
             self.logger.info(f"Warning {warning_id} with text {warning_text} is ON")
+            self.logger.info(f"top_left_coordinates: {top_left}")
+            self.logger.info(f"bottom_right_coordinates: {bottom_right}")
         else:
             self.logger.error(f"Warning {warning_id} is NOT ON")
             self.logger.info(f"Detected Text is \n{extracted_text}")
             raise Error(f"Warning {warning_id} is NOT ON")
-
-
-
-
-
-
-
-
-
-
-

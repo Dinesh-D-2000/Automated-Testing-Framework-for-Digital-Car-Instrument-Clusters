@@ -5,7 +5,7 @@ from test_lib.api import ValidationApi
 from test_lib.constants import WarningStatus, TelltaleStatus, Buttons
 
 
-class TestAbs(ValidationApi):
+class Test(ValidationApi):
 
     @pytest.fixture
     def before(self):
@@ -38,3 +38,13 @@ class TestAbs(ValidationApi):
         time.sleep(4)
         frame = self.capture_screen()
         self.verify_warning_status(WarningStatus.ON.value, warning_id="W123", frame_data=frame)
+
+    def test_fuel_economy(self, before):
+        """
+        This test method will verify whether the warning with id W123 is ON in the clusterHMI screen when
+         drive mode button is pressed
+        """
+        self.press_btn(Buttons.FUEL_ECONOMY.value)
+        time.sleep(4)
+        frame = self.capture_screen()
+        self.verify_warning_status(WarningStatus.ON.value, warning_id="W456", frame_data=frame)
