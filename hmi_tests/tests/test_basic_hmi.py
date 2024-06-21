@@ -1,6 +1,6 @@
 import time
 import pytest
-from test_lib.rtt_data import config
+from test_resources.rtt_data import config
 from test_lib.api import ValidationApi
 from test_lib.constants import WarningStatus, TelltaleStatus, Buttons
 
@@ -10,7 +10,7 @@ class Test(ValidationApi):
     @pytest.fixture
     def before(self):
         self.setup_logger()
-        self.get_url("file:///D:/Automation_testing/webpage/cluster_hmi.html")
+        self.get_url()
         self.icon_db_load()
         self.tpms_icon = config["rtt"]["tpms_icon"]
         self.w123 = "W123"
