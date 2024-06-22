@@ -59,7 +59,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 
 
 ## Logs and Screenshots of the Test Execution
-<b><i>Test case 1: Click on the Tire pressure button in the HMI and wait for 7 seconds and Verify the Tire pressure icon is displayed on the HMI</i></b>
+<b><i>Test case 1: Click on the Tire pressure button in the HMI and wait for 7 seconds and Verify the Tire pressure icon is displayed on the HMI</i></b><br />
 <b>Debug Log File</b>
 
 <pre>
@@ -93,7 +93,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p> 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-<b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
+<b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b><br />
 <b>Debug Log File</b>
 
 
@@ -124,7 +124,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b>
+<b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b><br />
 <b>Debug Log File</b>
 
 <pre>
