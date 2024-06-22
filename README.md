@@ -76,7 +76,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-05 07:28:11 PM: INFO: confidence_detected: 0.7948028445243835
 24-06-05 07:28:12 PM: INFO: Button with ID:home is pressed</pre>
 
-<div style="background-color: grey;">
+<div style="background-color: red;">
 <b>Screenshot captured:</b>
 
 <p align="center">
