@@ -4,7 +4,7 @@ PYTHON-AUTOMATION TESTING FOR LIGHTNING MCQUEEN'S INSTRUMENT CLUSTER </h1>
 
 ## Objective
 
-The objective of this project is to perform automation testing on a custom developed digital instrument cluster of a car.
+The objective of this project is to conduct comprehensive automation testing on a creatively engineered digital instrument cluster designed for Lightning McQueen. This endeavor aims to ensure the reliability, accuracy, and performance of the cluster through advanced Python-based testing methodologies.
 
 ## Tools
 
