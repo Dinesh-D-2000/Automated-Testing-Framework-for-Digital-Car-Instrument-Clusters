@@ -1,5 +1,6 @@
-# PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
+# ![Python-logo-notext svg](https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6) PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
 ## Objective
+![Python-logo-notext svg](https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6)
 
 The objective of this project is to perform automation testing on a custom developed digital instrument cluster of a car.
 
