@@ -1,10 +1,9 @@
-# Python's Mastery in Automation testing on Digital Instrument clusters
-
+# PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
 ## Objective
 
 The objective of this project is to perform automation testing on a custom developed digital instrument cluster of a car.
 
-## Tools and Repos Used
+## Tools
 
 - Python
 - HTML
@@ -13,12 +12,12 @@ The objective of this project is to perform automation testing on a custom devel
 - SQL
 - Selenium WebDriver
 - Pytest Framework
-- cluster_hmi_test_lib  (git repo developed by me: https://github.com/Dinesh-D-2000/cluster_hmi_tests )
-- cluster_hmi_resources (git repo developed by me: https://github.com/Dinesh-D-2000/cluster_hmi_resources)
+- [cluster_hmi_test_lib](https://github.com/Dinesh-D-2000/cluster_hmi_test_lib)
+- [cluster_hmi_resources](https://github.com/Dinesh-D-2000/cluster_hmi_resources)
 
 ## Description
 
-The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below. This website is developed for testing purpose.In Real time cluster HMI will be live streamed to the browser from the Electronic control unit. Testing will be done on that.
+The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below. This website is developed for testing purpose.In Real time cluster HMI will be live streamed to the browser from the Electronic control unit. Testing will be done on that. The API libraries are provided by the [cluster_hmi_test_lib](https://github.com/Dinesh-D-2000/cluster_hmi_test_lib) repository and the resources for this project is provided by [cluster_hmi_resources](https://github.com/Dinesh-D-2000/cluster_hmi_resources) reopsitory.
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259" alt="Instrument Cluster Display">
@@ -93,7 +92,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p>
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
 <b>Debug Log File</b>
@@ -124,6 +123,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/aacde164-8490-4780-9dc1-d25a6799c106" alt="Detected Region">
 </p>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b>
 <b>Debug Log File</b>
