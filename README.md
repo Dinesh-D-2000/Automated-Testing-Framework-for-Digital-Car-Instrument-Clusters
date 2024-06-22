@@ -1,4 +1,7 @@
-# ![Python-logo-notext svg](https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6) PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
+<h1 style="display: flex; align-items: center;">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6" alt="Python-logo-notext svg" style="width: 50px; height: 50px; margin-right: 10px;">
+  PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
+</h1>
 ## Objective
 ![Python-logo-notext svg](https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6)
 
