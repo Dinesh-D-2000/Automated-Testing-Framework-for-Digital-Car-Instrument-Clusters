@@ -92,7 +92,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p> 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 <b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
 <b>Debug Log File</b>
 
@@ -121,7 +121,8 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/aacde164-8490-4780-9dc1-d25a6799c106" alt="Detected Region">
 </p>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 <b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b>
 <b>Debug Log File</b>
