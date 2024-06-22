@@ -23,7 +23,7 @@ The objective of this project is to conduct comprehensive automation testing on 
 The digital instrument cluster display is developed using the front-end tools HTML, CSS, and JavaScript as shown below. This website is developed for testing purpose.In Real time cluster HMI will be live streamed to the browser from the Electronic control unit. Testing will be done on that. The API libraries are provided by the [cluster_hmi_test_lib](https://github.com/Dinesh-D-2000/cluster_hmi_test_lib) repository and the resources for this project is provided by [cluster_hmi_resources](https://github.com/Dinesh-D-2000/cluster_hmi_resources) reopsitory.
 
 <p align="center">
-  <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259" alt="Instrument Cluster Display">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/ee529893-86cf-43dc-87db-5b9fc7713264" alt="Instrument Cluster Display">
 </p>
 
 
