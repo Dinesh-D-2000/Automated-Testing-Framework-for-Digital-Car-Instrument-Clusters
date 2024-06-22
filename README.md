@@ -51,7 +51,7 @@ The digital instrument cluster display is developed using the front-end tools HT
 
 
 
-For these test cases, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
+For these test cases, the script is written in [test_basic_hmi.py](https://github.com/Dinesh-D-2000/cluster_hmi_tests/blob/main/hmi_tests/tests/test_basic_hmi.py). The script execution is recorded and presented below.
 
 
 https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8
