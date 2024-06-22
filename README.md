@@ -2,9 +2,9 @@
 
 ## Objective
 
-The objective of this project is to perform automation testing on a digital instrument cluster of a car.
+The objective of this project is to perform automation testing on a custom developed digital instrument cluster of a car.
 
-## Tools Used
+## Tools and Repos Used
 
 - Python
 - HTML
@@ -13,6 +13,8 @@ The objective of this project is to perform automation testing on a digital inst
 - SQL
 - Selenium WebDriver
 - Pytest Framework
+- cluster_hmi_test_lib  (git repo developed by me: https://github.com/Dinesh-D-2000/cluster_hmi_tests )
+- cluster_hmi_resources (git repo developed by me: https://github.com/Dinesh-D-2000/cluster_hmi_resources)
 
 ## Description
 
@@ -22,15 +24,31 @@ The digital instrument cluster display is developed using the front-end tools HT
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/dc42240c-5320-431b-b646-76678dc88259" alt="Instrument Cluster Display">
 </p>
 
-I have developed an API that will validate the presence of an icon in the given full screenshot of the HMI. The validation API will pass the test case only when:
-- The specified icon to be validated comes in the ROI specified by the user. (Initially full screen ROI is given to the API. After test execution it will return the exact ROI where the icon is found)
-- The matching percentage is above a certain threshold value.
 
-## Test Case 1
 
-<b><i>1. Click on the Tire pressure button in the HMI and wait for 7 seconds. Verify the Tire pressure icon is displayed on the HMI.</i></b>
+## Test Cases
+<table>
+  <tr>
+    <th>Steps to perform</th>
+    <th>Validation to perform</th>
+  </tr>
+  <tr>
+<td><b><i>1. Click on the Tire pressure button in the HMI and wait for 7 seconds.</i></b></td>
+<td> <b><i> Verify the Tire pressure icon is displayed on the HMI.</i></b></td>
+  </tr>
+    <tr>
+<td><b><i>2. Click on the Drive mode button in the HMI and wait for 4 seconds.</i></b></td>
+<td> <b><i> Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI.</i></b></td>
+  </tr>
+  <tr>
+<td><b><i>3. Click on the Fuel economy button in the HMI and wait for 4 seconds.</i></b></td>
+<td> <b><i>  Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI.</i></b></td>
+  </tr>
+</table>
 
-For this test case, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
+
+
+For these test cases, the script is written in `test_basic_hmi.py`. The script execution is recorded and presented below.
 
 
 https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/551feaf5-5803-4228-8ae6-25d6aafd99c8
@@ -38,7 +56,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 
 
 ## Logs and Screenshots of the Test Execution
-
+<b><i>Test case 1: Click on the Tire pressure button in the HMI and wait for 7 seconds and Verify the Tire pressure icon is displayed on the HMI</i></b>
 <b>Debug Log File</b>
 
 [debug.log](https://github.com/user-attachments/files/15589799/debug.log) <br />
@@ -76,7 +94,66 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p>
 
-## Conclusion
-This project demonstrates the effectiveness of automated testing in validating the functionality of a digital instrument cluster in a car. So far I have developed an API that will perfrom the icon validation. If used on a Real time environment where the live cluster HMI is streamed over the browser, these validations through automation ensures that the Instrument cluster works as per the client specifications.
 
-Looking ahead, future plans include the development of an API that will perform text validation within the instrument cluster. This enhancement will further improve the testing process by ensuring that all textual information displayed on the instrument cluster is accurate and correctly formatted, thus maintaining a high level of quality and user experience. And I am also planning to write more test cases.
+<b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
+<b>Debug Log File</b>
+
+[debug.log](https://github.com/user-attachments/files/15589799/debug.log) <br />
+<pre>
+24-06-21 09:01:39 PM: INFO: URL SUCCESSFULLY LOADED
+24-06-21 09:01:39 PM: INFO: ICON DB sucessfully loaded
+24-06-21 09:01:39 PM: INFO: Button with ID:drive_mode is pressed
+24-06-21 09:01:44 PM: INFO: Screenshot successfully captured and saved in path:D:\MY_OFFICIAL_PROJECTS\CLUSTER_HMI_TESTING\\cluster_hmi_tests\hmi_tests\Logs\logs_1003445403\screenshot.png
+24-06-21 09:01:45 PM: INFO: Warning W123 with text Active ParkSense Searching is ON
+24-06-21 09:01:45 PM: INFO: top_left_coordinates: [660, 182]
+24-06-21 09:01:45 PM: INFO: bottom_right_coordinates: [1530, 285]
+24-06-21 09:01:45 PM: INFO: Button with ID:home is pressed</pre>
+
+### Screenshots
+
+<b>Screenshot captured:</b>
+
+
+<p align="center">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/a38ee3bb-4c4b-47b4-aeb3-7e02051e7e74" alt="Screenshot">
+</p>
+
+<b>Detected Region:</b>
+
+
+<p align="center">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/aacde164-8490-4780-9dc1-d25a6799c106" alt="Detected Region">
+</p>
+
+<b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b>
+<b>Debug Log File</b>
+<b>Debug Log File</b>
+
+[debug.log](https://github.com/user-attachments/files/15589799/debug.log) <br />
+<pre>
+24-06-21 08:35:32 PM: INFO: URL SUCCESSFULLY LOADED
+24-06-21 08:35:32 PM: INFO: ICON DB sucessfully loaded
+24-06-21 08:35:32 PM: INFO: Button with ID:fuel_economy is pressed
+24-06-21 08:35:37 PM: INFO: Screenshot successfully captured and saved in path:D:\MY_OFFICIAL_PROJECTS\CLUSTER_HMI_TESTING\\cluster_hmi_tests\hmi_tests\Logs\logs_0038082456\screenshot.png
+24-06-21 08:35:37 PM: INFO: Warning W456 with text Fuel Economy is ON
+24-06-21 08:35:37 PM: INFO: top_left_coordinates: [660, 182]
+24-06-21 08:35:37 PM: INFO: bottom_right_coordinates: [1530, 285]
+24-06-21 08:35:37 PM: INFO: Button with ID:home is pressed</pre>
+
+### Screenshots
+
+<b>Screenshot captured:</b>
+
+
+<p align="center">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/026559b6-c8f4-4f73-bc93-bacf359e054d" alt="Screenshot">
+</p>
+
+<b>Detected Region:</b>
+
+<p align="center">
+  <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/13039f3b-bb0f-4da2-a01c-21e30d64b80d" alt="Detected Region">
+</p>
+
+## Conclusion
+This project demonstrates the effectiveness of automated testing in validating the functionality of a digital instrument cluster in a car. I have developed 3 test cases. If used on a Real time environment where the live cluster HMI is streamed over the browser, these validations through automation ensures that the Instrument cluster works as per the client specifications. These Image and text validation ensures that all information displayed on the instrument cluster is accurate and correctly formatted, thus maintaining a high level of quality and user experience.
