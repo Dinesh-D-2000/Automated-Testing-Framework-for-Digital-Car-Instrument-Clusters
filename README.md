@@ -76,7 +76,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-05 07:28:11 PM: INFO: confidence_detected: 0.7948028445243835
 24-06-05 07:28:12 PM: INFO: Button with ID:home is pressed</pre>
 
-<pre>
+<div style="background-color: grey;">
 <b>Screenshot captured:</b>
 
 <p align="center">
@@ -93,7 +93,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
-</p> </pre>
+</p> </div>
 <div style="border-top: 1px solid black; margin-top: 10px;"></div>
 
 <b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
