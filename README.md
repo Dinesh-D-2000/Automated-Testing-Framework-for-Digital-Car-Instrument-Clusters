@@ -76,7 +76,6 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-05 07:28:11 PM: INFO: confidence_detected: 0.7948028445243835
 24-06-05 07:28:12 PM: INFO: Button with ID:home is pressed</pre>
 
-### Screenshots
 
 <b>Screenshot captured:</b>
 
@@ -95,7 +94,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/109975786/488b582c-1c4e-4b9c-96a6-a43248756ed9" alt="Database Icon">
 </p>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<div style="border-top: 1px solid black; margin-top: 10px;"></div>
 
 <b><i>Test case 2: Click on the Drive mode button in the HMI and wait for 4 seconds and Verify the Warning, W123 with text "Active ParkSense Searching" displayed on the HMI</i></b>
 <b>Debug Log File</b>
@@ -111,7 +110,6 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-21 09:01:45 PM: INFO: bottom_right_coordinates: [1530, 285]
 24-06-21 09:01:45 PM: INFO: Button with ID:home is pressed</pre>
 
-### Screenshots
 
 <b>Screenshot captured:</b>
 
@@ -126,7 +124,7 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/aacde164-8490-4780-9dc1-d25a6799c106" alt="Detected Region">
 </p>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<div style="border-top: 1px solid black; margin-top: 10px;"></div>
 
 <b><i>Test case 3: Click on the Fuel economy button in the HMI and wait for 4 seconds and Verify the Warning, W456 with text "Fuel Economy" displayed on the HMI</i></b>
 <b>Debug Log File</b>
@@ -141,7 +139,6 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 24-06-21 08:35:37 PM: INFO: bottom_right_coordinates: [1530, 285]
 24-06-21 08:35:37 PM: INFO: Button with ID:home is pressed</pre>
 
-### Screenshots
 
 <b>Screenshot captured:</b>
 
@@ -155,6 +152,8 @@ https://github.com/Dinesh-D-2000/Instrument-cluster-automation-testing/assets/10
 <p align="center">
   <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/13039f3b-bb0f-4da2-a01c-21e30d64b80d" alt="Detected Region">
 </p>
+<div style="border-top: 1px solid black; margin-top: 10px;"></div>
+
 
 ## Conclusion
 This project demonstrates the effectiveness of automated testing in validating the functionality of a digital instrument cluster in a car. I have developed 3 test cases. If used on a Real time environment where the live cluster HMI is streamed over the browser, these validations through automation ensures that the Instrument cluster works as per the client specifications. These Image and text validation ensures that all information displayed on the instrument cluster is accurate and correctly formatted, thus maintaining a high level of quality and user experience.
