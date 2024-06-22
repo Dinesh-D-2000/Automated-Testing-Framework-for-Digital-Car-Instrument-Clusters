@@ -1,7 +1,6 @@
 <h1 style="display: flex; align-items: center;">
   <img src="https://github.com/Dinesh-D-2000/cluster_hmi_tests/assets/109975786/75670ab4-9b35-4e21-8ce7-6333f3991cf6" alt="Python-logo-notext svg" style="width: 30px; height: 30px; margin-right: 10px;">
-  PYTHON'S MASTERY IN AUTOMATION TESTING ON DIGITAL INSTRUMENT CLUSTERS
-</h1>
+PYTHON-AUTOMATION TESTING FOR LIGHTNING MCQUEEN'S INSTRUMENT CLUSTER </h1>
 
 ## Objective
 
